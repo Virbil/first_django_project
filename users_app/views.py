@@ -1,5 +1,7 @@
 from django.shortcuts import render, HttpResponse
 
+def index(request):
+    return HttpResponse("placeholder for landing page in User")
 
 def register(request):
     if request == '/register':

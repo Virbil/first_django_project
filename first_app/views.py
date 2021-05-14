@@ -7,6 +7,7 @@ def new(request):
     return HttpResponse("placeholder to display a new form to create a new blog")
 
 def create(request):
+    print('will redirect to blogs')
     return redirect('/blogs')
 
 def show(request, number):
